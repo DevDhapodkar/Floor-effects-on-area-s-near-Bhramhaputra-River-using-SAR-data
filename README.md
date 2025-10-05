@@ -1,3 +1,20 @@
+# 🧪 Judge Quick Start: How to Run This Project (2–5 min)
+
+Follow these steps to run the flood detection analysis quickly during judging. No local installs needed.
+
+1) Open Google Earth Engine Code Editor: https://code.earthengine.google.com/
+2) Create a new script and paste the contents of `gee_scripts/curiousar_flood_detection.js`.
+3) Click Run. The map will render Sentinel‑1 layers and change maps.
+4) To compute flood area stats, open `gee_scripts/quantitative_analysis.js`, paste into a new tab in GEE, and Run.
+5) Optional enhancements: try `gee_scripts/enhancement_scripts.js` for extra layers and styling.
+
+Notes for judges
+- If the script asks for permissions, grant access to Earth Engine assets when prompted.
+- You can adjust dates/AOI at the top of each script to test different scenarios.
+- Exports: Use the Export buttons in GEE to save PNGs/GeoTIFFs (see `results/export_instructions.md`).
+
+---
+
 # 🌏 Through the Radar Looking Glass: Revealing Earth Processes with SAR
 
 **An Advanced Sentinel-1 Change Detection Workflow in Google Earth Engine**
